@@ -1,0 +1,5 @@
+Period,n_weeks,mean_pct,median_pct,sd_pct,min_pct,max_pct,q25_pct,q75_pct,specimens,positives,dominant_subtype
+Pre-pandemic (2017-2019),156,16.1,14.5,9.2,0.0,41.4,10.0,22.5,25034,4336,A/H1N1pdm09
+Pandemic (2020-2021),100,3.7,1.1,5.5,0.0,25.0,0.0,5.0,13833,763,A/H3N2
+Post-pandemic (2022-2026),220,9.5,7.4,7.6,0.0,36.8,3.8,12.0,151722,16524,A/H1N1pdm09 + A/H3N2
+Overall (2017-2026),476,10.5,8.5,9.0,0.0,41.4,3.4,14.8,190589,21623,A/H1N1pdm09 (25.2%)

@@ -1,0 +1,7 @@
+Scenario,Delta_mu_sigma,T_regime_wks,FIM_rank,ID_status,Classif_accuracy_pct,CI_95
+S1,0.5,52,7,FAIL,54.2,(49.1-59.3%)
+S2,1.0,52,9,PARTIAL,71.8,(67.6-76.0%)
+S3,1.5,52,11,PASS,91.3,(88.4-94.2%)
+S4,2.0,52,11,PASS,96.7,(94.8-98.6%)
+S5,1.5,26,10,PARTIAL,83.1,(79.4-86.8%)
+S6_Empirical_KSA,1.63,100+,11,PASS,94.1,(91.9-96.3%)

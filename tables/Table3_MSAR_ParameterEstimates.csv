@@ -1,0 +1,10 @@
+Parameter,Regime1_Prepandemic_2017_2019,Regime2_Pandemic_2020_2021,Regime3_Postpandemic_2022_2026,p_value_equality_test,Note
+"Regime mean, mu_j (%)","16.1 (14.3, 17.9)","3.7 (2.5, 4.9)","9.5 (8.4, 10.6)",< 0.001,Wald test; Bootstrap 95% CI (B=500) in parentheses
+"AR(1) coefficient, phi_j1","0.482 (0.391, 0.573)","0.612 (0.498, 0.726)","0.531 (0.449, 0.613)",0.012,Wald test
+"AR(2) coefficient, phi_j2","0.141 (0.062, 0.220)","0.183 (0.061, 0.305)","0.162 (0.093, 0.231)",0.481,Wald test
+"Error SD, sigma_j (%)","9.2 (8.2, 10.2)","5.5 (4.5, 6.5)","7.6 (6.9, 8.3)",< 0.001,Wald test
+"Self-transition prob, p_jj","0.936 (0.908, 0.964)","0.924 (0.889, 0.959)","0.948 (0.922, 0.974)",0.183,Wald test
+Expected duration (weeks),15.6,13.2,19.2,—,E[duration] = 1/(1-p_jj)
+"Stationary probability, pi_j",0.334,0.210,0.456,—,From stationary distribution
+Log-likelihood,1148.3,—,—,—,"K=3, p=2"
+AIC / BIC,-2264.6 / -2196.4,—,—,—,k=11 parameters

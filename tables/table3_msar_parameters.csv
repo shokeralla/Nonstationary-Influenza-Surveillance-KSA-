@@ -1,0 +1,4 @@
+Regime,mean_pct,CI_lo_pct,CI_hi_pct,SD_pct,AR1_coef,AR2_coef,SE_AR1,SE_AR2,error_SD_pct,self_trans_prob,CI_trans_lo,CI_trans_hi,expected_dur_wks,stationary_prob,log_likelihood,AIC,BIC
+Regime 1 - Pre-pandemic (2017-2019),16.1,14.3,17.9,9.2,0.482,0.141,0.091,0.079,9.2,0.936,0.908,0.964,15.6,0.334,1148.3,-2264.6,-2196.4
+Regime 2 - Pandemic (2020-2021),3.7,2.5,4.9,5.5,0.612,0.183,0.114,0.124,5.5,0.924,0.889,0.959,13.2,0.21,1148.3,-2264.6,-2196.4
+Regime 3 - Post-pandemic (2022-2026),9.5,8.4,10.6,7.6,0.531,0.162,0.082,0.069,7.6,0.948,0.922,0.974,19.2,0.456,1148.3,-2264.6,-2196.4

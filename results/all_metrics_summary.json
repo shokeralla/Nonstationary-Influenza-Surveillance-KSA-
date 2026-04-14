@@ -1,0 +1,61 @@
+{
+  "dataset": {
+    "n_total_raw": 481,
+    "n_excluded": 2,
+    "n_analytic": 476,
+    "years": "2017-2026"
+  },
+  "periods": {
+    "pre_pandemic": {
+      "n_weeks": 156,
+      "mean_pct": 16.1,
+      "sd_pct": 9.2,
+      "specimens": 25034
+    },
+    "pandemic": {
+      "n_weeks": 100,
+      "mean_pct": 3.7,
+      "sd_pct": 5.5,
+      "specimens": 13833
+    },
+    "post_pandemic": {
+      "n_weeks": 220,
+      "mean_pct": 9.5,
+      "sd_pct": 7.6,
+      "specimens": 151722
+    }
+  },
+  "identifiability": {
+    "sep_regime1_2_sigma": 1.63,
+    "sep_regime2_3_sigma": 0.77,
+    "min_regime_duration_wks": 100,
+    "FIM_rank": 11,
+    "threshold_guideline": "Delta_mu >= 1.5 sigma (empirical guideline, not formal theorem)"
+  },
+  "model_fit": {
+    "log_likelihood": 1148.3,
+    "AIC": -2264.6,
+    "BIC": -2196.4
+  },
+  "forecast_4wk": {
+    "MS_AR_RMSE": 0.0656,
+    "AR2_RMSE": 0.0856,
+    "RMSE_improvement_pct": 23.4,
+    "MS_AR_CRPS": 0.0349,
+    "AR2_CRPS": 0.0484,
+    "DM_p": 0.009,
+    "LSTM_RMSE": 0.0585,
+    "SARIMA_RMSE": 0.0667,
+    "Prophet_RMSE": 0.0709
+  },
+  "forecast_8wk": {
+    "MS_AR_RMSE": 0.0721,
+    "AR2_RMSE": 0.0961,
+    "improvement_pct": 25.0
+  },
+  "caveats": [
+    "No causal interpretation is implied by identified statistical regimes.",
+    "Positivity rates reflect both infection dynamics and testing behaviour.",
+    "Identifiability thresholds are empirical guidelines, not formal theorems."
+  ]
+}
